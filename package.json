@@ -27,14 +27,14 @@
     ],
     "homepage": "https://github.com/owlai01/malibu",
     "author": {
-        "name": "PRINCE"
+        "name": "MALIBU"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/PRINCE-GDS/THE-PRINCE-BOT.git"
     },
     "bugs": {
-        "url": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT/issues"
+        "url": "https://github.com/owlai01/malibu/issues"
     },
     "license": "Apache License 2.0",
     "dependencies": {
