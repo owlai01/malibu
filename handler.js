@@ -579,7 +579,7 @@ export async function participantsUpdate({
                         title: global.botname,
                         body: "Welcome",
                         thumbnailUrl: welcomeApiUrl,
-                        sourceUrl: 'https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP',
+                        sourceUrl: 'https://chat.whatsapp.com/H3T9SI97DnOIgXc4VkuXSz',
                         mediaType: 1,
                         renderLargerThumbnail: true
                         }}})
@@ -601,8 +601,8 @@ export async function participantsUpdate({
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://telegra.ph/file/b86cd15e5a49014d06660.jpg'; // Assign default image URL
-                  ppgp = 'https://telegra.ph/file/b86cd15e5a49014d06660.jpg'; // Assign default image URL
+                  pp = 'https://telegra.ph/file/bd6345298eefdf3fdd027.jpg'; // Assign default image URL
+                  ppgp = 'https://telegra.ph/file/bd6345298eefdf3fdd027.jpg'; // Assign default image URL
                 } finally {
                   let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
                     .replace('@user', '@' + user.split('@')[0]);
@@ -617,7 +617,7 @@ export async function participantsUpdate({
                   )}&memberCount=${encodeURIComponent(
                     nthMember.toString()
                   )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-                    'https://telegra.ph/file/b86cd15e5a49014d06660.jpg'
+                    'https://telegra.ph/file/bd6345298eefdf3fdd027.jpg'
                   )}`;
           
                   try {
