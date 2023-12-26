@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text && !(m.quoted && m.quoted.text)) {
-    throw `🅶🅳🆂   ${usedPrefix}${command} 𝐓𝐡𝐞 𝐛𝐞𝐚𝐮𝐭𝐲 𝐨𝐟 𝐒𝐢𝐧𝐝𝐡 `;
+    throw `🅶🅳🆂   ${usedPrefix}${command} 𝐓𝐡𝐞 𝐛𝐞𝐚𝐮𝐭𝐲 𝐨𝐟 𝐦𝐚𝐥𝐢𝐛𝐮 𝐛𝐞𝐚𝐜𝐡 `;
 
     
   }

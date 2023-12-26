@@ -56,13 +56,13 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER🧑‍💻*
- _PRINCE GDS_
+ _MALIBU BOT_
 ▢ MY CONTACT NUMBER.
-  wa.me/923042205427
+  wa.me/254712703241
   
 ▢ MY BOT GC LINK.
-  https://chat.whatsapp.com/GWJkAJSgbv27sGOMLAzMDS
-
+  https://chat.whatsapp.com/H3T9SI97DnOIgXc4VkuXSz
+  
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}

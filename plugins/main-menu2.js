@@ -7,8 +7,8 @@ const { levelling } = '../lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
-const time = moment.tz('Asia/Karachi').format('HH')
-let wib = moment.tz('Asia/Karachi').format('HH:mm:ss')
+const time = moment.tz('Africa/Nairobi').format('HH')
+let wib = moment.tz('Africa/Nairobi').format('HH:mm:ss')
 //import db from '../lib/database.js'
 
 let handler = async (m, { conn, usedPrefix, command}) => {
@@ -36,7 +36,7 @@ let greeting = ucapan()
 let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = ` *🛡️PЯINCΣ-BOT-MÐ🛡️*
+let str = ` *🛡️𝐌𝐀𝐋𝐈𝐁𝐔 𝐁𝐎𝐓 🛡️*
 
 
 ╭━⊱「Wᴇʟᴄᴏᴍᴇ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅs ᴍᴇɴᴜ⊱━╮
@@ -78,7 +78,7 @@ function clockString(ms) {
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
     
     function ucapan() {
-      const time = moment.tz('Asia/Karachi').format('HH')
+      const time = moment.tz('Africa/Nairobi').format('HH')
       let res = "happy early in the day☀️"
       if (time >= 4) {
         res = "Good Morning 🌄"
