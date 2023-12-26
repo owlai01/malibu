@@ -20,9 +20,9 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
           mentionedJid: [m.sender],
           externalAdReply: {
           title: "I AM ALIVE",
-          body: "PRINCE BOT",
+          body: "𝐌𝐀𝐋𝐈𝐁𝐔 𝐁𝐎𝐓",
           thumbnailUrl: img,
-          sourceUrl: 'https://chat.whatsapp.com/FFDazafm9Z5IYthaQecbyN',
+          sourceUrl: 'https://chat.whatsapp.com/H3T9SI97DnOIgXc4VkuXSz,
           mediaType: 1,
           renderLargerThumbnail: true
           }}
