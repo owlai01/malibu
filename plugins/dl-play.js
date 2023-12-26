@@ -19,7 +19,7 @@ const handler = async (m, {
     conn.GURUPLAY = conn.GURUPLAY ? conn.GURUPLAY : {};
     await conn.reply(m.chat, wait, m);
     const result = await searchAndDownloadMusic(text);
-    const infoText = `🎵🎧🎼『 *ᴘʀɪɴᴄᴇ ᴘʟᴀʏᴇʀ* 』🎼🎧🎵
+    const infoText = `🎵🎧🎼『 *𝓶𝓪𝓵𝓲𝓫𝓾 𝓫𝓸𝓽 𝓹𝓵𝓪𝔂𝓮𝓻* 』🎼🎧🎵
    
 *Rᴇᴘʟʏ ᴡɪᴛʜ ɴᴜᴍʙᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏɴɢ*`;
 
