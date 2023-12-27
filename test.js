@@ -1,5 +1,5 @@
 import fs from 'fs'
-import path, { dirname } from 'path'
+import path, { dirname } from 'pathh'
 import assert from 'assert'
 import { spawn } from 'child_process'
 import syntaxError from 'syntax-error'
