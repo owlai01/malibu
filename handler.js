@@ -741,7 +741,7 @@ export async function deleteUpdate(message) {
        
             await this.reply(msg.chat, `
             ✅ Deleted a message 
-            ┌─⊷🪩𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀🪩
+            ┌─⊷🪩😅𝐨𝐩𝐩𝐬 𝐚𝐧𝐭𝐢 𝐝𝐞𝐥𝐞𝐭𝐞 𝐬𝐩𝐨𝐭𝐭𝐞𝐝 𝐲𝐨𝐮😅🪩
             │✫ -  *Number :* @${participant.split`@`[0]} 
             └─────────────
              To deactivate delete the Antidelete var✅
