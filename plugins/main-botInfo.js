@@ -56,7 +56,7 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER🧑‍💻*
- _MALIBU BOT_
+ _MALIBU _
 ▢ MY CONTACT NUMBER.
   wa.me/254712703241
   

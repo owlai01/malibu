@@ -14,7 +14,7 @@ conn.reply(m.chat, `
 
 @${who.split`@`[0]} ahora te conviertes en un usuario premium
 ┌───────────
-▢ *Nombre:* ${user.name}
+▢ *Number:* ${user.name}
 └───────────
 `, m, { mentions: [who] })
 
